@@ -195,8 +195,8 @@ set incsearch               " Incrementally search while typing a /regex
 
 """" Display
 if has("gui_running")
-    colorscheme macvim
-    set guifont=Droid\ Sans\ Mono\ for\ Powerline:h13
+    colorscheme torte
+"    set guifont=Droid\ Sans\ Mono\ for\ Powerline:h10
     " Remove menu bar
     set guioptions-=m
 
