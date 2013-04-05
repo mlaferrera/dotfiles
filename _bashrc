@@ -16,7 +16,7 @@ shopt -s histappend
 shopt -s checkwinsize
 
 # Display fortune on login. Must be installed w/ apt-get install fortune-mod
-[[ "$PS1" ]] && /usr/games/fortune
+#[[ "$PS1" ]] && /usr/games/fortune
 
 
 # make less more friendly for non-text input files, see lesspipe(1)
@@ -177,3 +177,8 @@ export GIT_EDITOR="$vim"
 
 # Add git and svn branch names
 export PS1="$PS1\$(parse_git_branch)\$(parse_svn_branch) "
+
+PATH="/Developer/usr/bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:${PATH}"
+export PATH
+
+alias vi=mvim
