@@ -2,7 +2,10 @@ if has("gui_running")
     colorscheme ir_black
     set guifont=Droid\ Sans\ Mono\ for\ Powerline:h12
 else
-    colorscheme ir_black-256
+    colorscheme ir_black
+    ""colorscheme ir_black-256
 endif
 
 set rtp+=~/.vim/bundle/powerline/bindings/vim
+
+UnBundle 'Lokaltog/vim-powerline'
