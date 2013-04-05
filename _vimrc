@@ -195,7 +195,7 @@ set incsearch               " Incrementally search while typing a /regex
 
 """" Display
 if has("gui_running")
-    colorscheme torte
+    colorscheme desert
 "    set guifont=Droid\ Sans\ Mono\ for\ Powerline:h10
     " Remove menu bar
     set guioptions-=m
@@ -203,7 +203,8 @@ if has("gui_running")
     " Remove toolbar
     set guioptions-=T
 else
-    colorscheme torte
+    " colorscheme torte
+    colorscheme desert
 endif
 
 " Paste from clipboard
