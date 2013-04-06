@@ -31,8 +31,8 @@ hardstatus string '%{= kK}%{G}%H %{K}%= %{W}%{= kw}%?%-Lw%?%{B}(%{G}%n: %t%?(%u)
 #terminfo * 'AF=\E[3%p1%dm:AB=\E[4%p1%dm'
 #termcapinfo xterm ti@:te@
 #termcapinfo xterm*|Eterm|mlterm|rxvt 'hs:ts=\E]0;:fs=\007:ds=\E]0;screen\007'
-termcap xterm 'Co#256:AB=\E[48;5;%dm:AF=\E[38;5;%dm'
-term xterm
+#termcap xterm 'Co#256:AB=\E[48;5;%dm:AF=\E[38;5;%dm'
+term screen-256color
 
 # caption description:
 # caption always "%?%F%{-b bc}%:%{-b bb}%?%C|%D|%M %d|%H%?%F%{+u wb}%? %L=%-Lw%45>%{+b by}%n%f* %t%{-}%+Lw%-0<"
