@@ -4,12 +4,15 @@ endif
 
 if has("gui_running")
     colorscheme ir_black
-    set guifont=Droid\ Sans\ Mono\ for\ Powerline:h12
+    ""set guifont=Droid\ Sans\ Mono\ for\ Powerline:h12
 else
     ""colorscheme ir_black
     ""colorscheme ir_black-256
     color darkbone
 endif
+
+"" Set comment color
+hi Comment  guifg=#80a0ff ctermfg=darkred
 
 set rtp+=~/.vim/bundle/powerline/bindings/vim
 
