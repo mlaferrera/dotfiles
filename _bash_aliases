@@ -7,4 +7,4 @@ alias wgie10='usewithtor wget -U "Mozilla/5.0 (compatible\; MSIE 10.0\; Windows 
 alias wgierss='usewithtor wget -U "Mozilla/4.0 (compatible\; MSIE 7.0\; Windows NT 5.1\; Trident/4.0\; InfoPath.2)" '
 
 # Sublime
-alias subl='/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl'
+alias subl='/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl'
