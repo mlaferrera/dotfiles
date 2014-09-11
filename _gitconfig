@@ -1,6 +1,6 @@
 [user]
-	name = Marcus LaFerrera
-	email = marcus@cromdalelabs.com
+    name = Marcus LaFerrera
+    email = marcus@randomhack.org
 
 [color]
     diff = auto
@@ -12,7 +12,8 @@
     default = matching
 
 [core]
-    editor = vim
+    #editor = vim
+	editor = subl -n -w
     pager = less -R
 
 [alias]
@@ -29,4 +30,4 @@
     ls = ls-files
 
 [credential]
-	helper = cache
+    helper = cache

@@ -154,6 +154,8 @@ alias vim="$vim"
 if [ -x "/Applications/MacVim.app/Contents/MacOS/Vim" ]; then
     alias vi=mvim
     PATH=/Applications/MacVim.app/Contents/MacOS/:$PATH
+    export EDITOR='subl -w'
+    alias subl=~/bin/subl
 fi
 
 PYTHONSTARTUP=~/.pythonrc.py
