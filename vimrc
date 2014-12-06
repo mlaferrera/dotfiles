@@ -107,5 +107,4 @@ set sidescroll=1
 
 
 " ================ Custom Settings ========================
-colorscheme twilight256
 so ~/.yadr/vim/settings.vim

@@ -27,5 +27,7 @@ else
   end
 endif
 
-colorscheme solarized
+" colorscheme solarized
+" colorscheme twilight256
+colorscheme ir_black
 set background=dark
