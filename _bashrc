@@ -181,7 +181,7 @@ export GIT_EDITOR="$vim"
 # Add git and svn branch names
 export PS1="$PS1\$(parse_git_branch)\$(parse_svn_branch) "
 
-PATH="/Developer/usr/bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/usr/local/Cellar/git/2.1.2/libexec/git-core/:${PATH}"
+PATH="/Developer/usr/bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/usr/local/Cellar/git/2.1.2/libexec/git-core/:/usr/local/opt/coreutils/libexec/gnubin:${PATH}"
 export PATH
 
 # pip should only run if there is a virtualenv currently activated
