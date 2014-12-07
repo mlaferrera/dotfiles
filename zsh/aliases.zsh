@@ -51,8 +51,8 @@ alias ar='source $yadr/zsh/aliases.zsh'  #alias reload
 mvim --version > /dev/null 2>&1
 MACVIM_INSTALLED=$?
 if [ $MACVIM_INSTALLED -eq 0 ]; then
-  alias vim="mvim -v"
-  alias vi="mvim -v"
+  alias vim=mvim
+  alias vi=mvim
 fi
 
 # mimic vim functions
