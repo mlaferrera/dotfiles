@@ -29,5 +29,7 @@ endif
 
 " colorscheme solarized
 " colorscheme twilight256
-colorscheme ir_black
+" colorscheme ir_black
+colorscheme distinguished
+
 set background=dark
