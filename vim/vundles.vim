@@ -27,6 +27,8 @@ runtime appearance.vundle
 runtime textobjects.vundle
 runtime search.vundle
 runtime project.vundle
+runtime python.vundle
+runtime salt.vundle
 runtime vim-improvements.vundle
 
 " The plugins listed in ~/.vim/.vundles.local will be added here to
