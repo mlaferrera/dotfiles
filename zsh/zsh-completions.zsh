@@ -4,3 +4,4 @@
 #
 #   rm -f ~/.zcompdump; compinit
 fpath=(/usr/local/share/zsh-completions $fpath)
+compinit -i
