@@ -9,13 +9,13 @@ if has("gui_running")
   " (the numbers don't show up) so I made it a VimEnter event
   autocmd VimEnter * set guitablabel=%N:\ %t\ %M
 
-  set lines=60
-  set columns=190
+  set lines=50
+  set columns=140
 
   if has("gui_gtk2")
     set guifont=Inconsolata\ XL\ 12,Inconsolata\ 15,Monaco\ 12
   else
-    set guifont=Inconsolata\ XL:h17,Inconsolata:h20,Monaco:h17
+    set guifont=Inconsolata\ XL:h12,Inconsolata:h14,Monaco:h12
   end
 else
   let g:CSApprox_loaded = 1
