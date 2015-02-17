@@ -7,5 +7,6 @@ path=(
   /Library/Frameworks/Python.framework/Versions/2.7/bin
   /usr/local/Cellar/git/2.1.2/libexec/git-core/
   /usr/local/opt/coreutils/libexec/gnubin
+  /usr/local/bin
 )
 

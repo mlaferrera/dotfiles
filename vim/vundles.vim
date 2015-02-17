@@ -30,6 +30,7 @@ runtime project.vundle
 runtime python.vundle
 runtime salt.vundle
 runtime vim-improvements.vundle
+runtime go.vundle
 
 " The plugins listed in ~/.vim/.vundles.local will be added here to
 " allow the user to add vim plugins to yadr without the need for a fork.
