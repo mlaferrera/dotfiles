@@ -1,1 +1,1 @@
-export GOPATH=~/Documents/dev/go
+export GOPATH=~/.go
