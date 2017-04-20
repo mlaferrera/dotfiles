@@ -1,7 +1,0 @@
-Bundle "chrisbra/color_highlight.git"
-" Bundle 'msutherl/vim-colors-ir_black-256'
-Bundle "flazz/vim-colorschemes"
-Bundle "itchyny/lightline.vim"
-Bundle "jby/tmux.vim.git"
-Bundle "morhetz/gruvbox"
-Bundle "xsunsmile/showmarks.git"

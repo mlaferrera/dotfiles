@@ -110,7 +110,7 @@
   default = upstream
 [core]
   autocrlf = false
-  editor = vim
+	editor = atom --wait
 	excludesfile = /Users/mal/.yadr/git/gitignore
 [advice]
   statusHints = false
@@ -131,3 +131,7 @@
 [mergetool "sourcetree"]
 	cmd = /opt/homebrew-cask/Caskroom/sourcetree/2.0.5.2/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
 	trustExitCode = true
+[user]
+	signingkey = 9B6DF60794D947CE
+[commit]
+	gpgsign = true

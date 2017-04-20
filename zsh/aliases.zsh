@@ -48,13 +48,14 @@ alias ae='vim $yadr/zsh/aliases.zsh' #alias edit
 alias ar='source $yadr/zsh/aliases.zsh'  #alias reload
 
 # vim using
-alias vi=vim
-mvim --version > /dev/null 2>&1
-MACVIM_INSTALLED=$?
-if [ $MACVIM_INSTALLED -eq 0 ]; then
-  alias vim=mvim
-  alias vi=mvim
-fi
+alias vi=atom
+alias vim=atom
+# mvim --version > /dev/null 2>&1
+# MACVIM_INSTALLED=$?
+# if [ $MACVIM_INSTALLED -eq 0 ]; then
+#   alias vim=mvim
+#   alias vi=mvim
+# fi
 
 # mimic vim functions
 alias :q='exit'
@@ -201,5 +202,23 @@ alias wgie7='torify wget -U "Mozilla/4.0 (compatible\; MSIE 7.0\; Windows NT 5.1
 alias wgie10='torify wget -U "Mozilla/5.0 (compatible\; MSIE 10.0\; Windows NT 6.1\; WOW64; Trident/6.0)" '
 alias wgierss='torify wget -U "Mozilla/4.0 (compatible\; MSIE 7.0\; Windows NT 5.1\; Trident/4.0\; InfoPath.2)" '
 
+# more useful things
+alias assh='autossh -M 0 -f -T -N '
+
 # Sublime
 alias subl='/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl'
+
+kill-gpg-agent() {
+  killall -9 gpg-agent
+}
+
+start-gpg-agent() {
+  eval $(gpg-agent --daemon)
+}
+
+restart-gpg-agent() {
+  kill-gpg-agent
+  echo 'remove your key'
+  sleep 3
+  start-gpg-agent
+}
